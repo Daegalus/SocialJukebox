@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Jukebox</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/bootstrap-theme.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row well">
+            <div class="input-group">
+                <!--<span class="input-group-addon">URL</span>-->
+                <input id='songurl' type="text" class="form-control" placeholder="Song URL">
+                <span class="input-group-btn">
+                    <button id='addsong' class="btn btn-primary" type="button">add song</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="row well">
+            <div class="h4">Now Playing</div>
+            <table class="table">
+                <tbody class="current-list"></tbody>
+            </table>
+        </div>
+
+        <div class="row well">
+            <div class="h4">Queued</div>
+            <table class="table table-striped">
+                <tbody class="song-list"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="static/js/jquery-2.0.3.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/sj.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# IntelliJ
+*.iml
+.idea/
+
+# Python
+*.pyc
+
+# DB
+*.db
